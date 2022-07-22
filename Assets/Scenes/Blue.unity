@@ -193,11 +193,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -719888644, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -277,11 +277,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1897517997, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -361,11 +361,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -979815580, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -445,11 +445,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 960735431, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -469,6 +469,8 @@ GameObject:
   m_Component:
   - component: {fileID: 163865072}
   - component: {fileID: 163865073}
+  - component: {fileID: 163865075}
+  - component: {fileID: 163865074}
   m_Layer: 0
   m_Name: trigonikTokens_0 (2)
   m_TagString: Untagged
@@ -529,8 +531,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -719888644, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -543,6 +545,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &163865074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163865071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1973901576}
+--- !u!61 &163865075
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163865071}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50666666, y: 0.50714284}
+    newSize: {x: 0.50666666, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50666666, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &220416899
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,11 +654,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1897517997, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -637,6 +678,8 @@ GameObject:
   m_Component:
   - component: {fileID: 247586577}
   - component: {fileID: 247586578}
+  - component: {fileID: 247586580}
+  - component: {fileID: 247586579}
   m_Layer: 0
   m_Name: trigonikTokens_0 (1)
   m_TagString: Untagged
@@ -697,8 +740,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -719888644, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -711,6 +754,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &247586579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247586576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1769418925}
+--- !u!61 &247586580
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247586576}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50666666, y: 0.50714284}
+    newSize: {x: 0.50666666, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50666666, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &283641187
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,11 +863,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 960735431, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -805,6 +887,8 @@ GameObject:
   m_Component:
   - component: {fileID: 316633577}
   - component: {fileID: 316633578}
+  - component: {fileID: 316633580}
+  - component: {fileID: 316633579}
   m_Layer: 0
   m_Name: trigonikTokens_7
   m_TagString: Untagged
@@ -865,8 +949,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 489457690, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -879,6 +963,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &316633579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316633576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 900623513}
+--- !u!61 &316633580
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316633576}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5057143, y: 0.5052381}
+    newSize: {x: 0.5057143, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5057143, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &328654921
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,11 +1072,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1326448634, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1033,11 +1156,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1037157343, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1117,11 +1240,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1037157343, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1141,7 +1264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 454974024}
   m_Layer: 0
-  m_Name: Blue Pegs (1)
+  m_Name: Blue Pegs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1286,6 +1409,8 @@ GameObject:
   m_Component:
   - component: {fileID: 518520803}
   - component: {fileID: 518520804}
+  - component: {fileID: 518520806}
+  - component: {fileID: 518520805}
   m_Layer: 0
   m_Name: trigonikTokens_3
   m_TagString: Untagged
@@ -1346,8 +1471,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1326448634, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1360,6 +1485,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &518520805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518520802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 567226273}
+--- !u!61 &518520806
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518520802}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50714284, y: 0.50714284}
+    newSize: {x: 0.50714284, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50714284, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,11 +1678,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1326448634, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1538,6 +1702,8 @@ GameObject:
   m_Component:
   - component: {fileID: 567790682}
   - component: {fileID: 567790683}
+  - component: {fileID: 567790685}
+  - component: {fileID: 567790684}
   m_Layer: 0
   m_Name: trigonikTokens_6 (1)
   m_TagString: Untagged
@@ -1598,8 +1764,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1037157343, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1612,6 +1778,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &567790684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567790681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 395380635}
+--- !u!61 &567790685
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567790681}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50714284, y: 0.5052381}
+    newSize: {x: 0.50714284, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50714284, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &687804941
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,6 +1827,8 @@ GameObject:
   m_Component:
   - component: {fileID: 687804942}
   - component: {fileID: 687804943}
+  - component: {fileID: 687804945}
+  - component: {fileID: 687804944}
   m_Layer: 0
   m_Name: trigonikTokens_4 (5)
   m_TagString: Untagged
@@ -1682,8 +1889,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1696,6 +1903,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &687804944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687804941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1225993403}
+--- !u!61 &687804945
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687804941}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5057143, y: 0.50714284}
+    newSize: {x: 0.5057143, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5057143, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &690562183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,11 +2012,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1664880472, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1850,11 +2096,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1874,6 +2120,8 @@ GameObject:
   m_Component:
   - component: {fileID: 703274980}
   - component: {fileID: 703274981}
+  - component: {fileID: 703274983}
+  - component: {fileID: 703274982}
   m_Layer: 0
   m_Name: trigonikTokens_4 (3)
   m_TagString: Untagged
@@ -1934,8 +2182,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1948,6 +2196,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &703274982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703274979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1711890856}
+--- !u!61 &703274983
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703274979}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5057143, y: 0.50714284}
+    newSize: {x: 0.5057143, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5057143, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &736027018
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,11 +2305,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1315088356, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2042,6 +2329,8 @@ GameObject:
   m_Component:
   - component: {fileID: 767329811}
   - component: {fileID: 767329812}
+  - component: {fileID: 767329814}
+  - component: {fileID: 767329813}
   m_Layer: 0
   m_Name: trigonikTokens_9
   m_TagString: Untagged
@@ -2102,8 +2391,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1315088356, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2116,6 +2405,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &767329813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767329810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 736027018}
+--- !u!61 &767329814
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767329810}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5052381, y: 0.5052381}
+    newSize: {x: 0.5052381, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5052381, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &804996030
 GameObject:
   m_ObjectHideFlags: 0
@@ -2186,11 +2514,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1679770732, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2210,6 +2538,8 @@ GameObject:
   m_Component:
   - component: {fileID: 858811399}
   - component: {fileID: 858811400}
+  - component: {fileID: 858811402}
+  - component: {fileID: 858811401}
   m_Layer: 0
   m_Name: trigonikTokens_10 (1)
   m_TagString: Untagged
@@ -2270,8 +2600,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -979815580, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2284,6 +2614,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &858811401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858811398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 110505878}
+--- !u!61 &858811402
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858811398}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50714284, y: 0.50714284}
+    newSize: {x: 0.50714284, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50714284, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &900623513
 GameObject:
   m_ObjectHideFlags: 0
@@ -2354,11 +2723,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 489457690, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2438,11 +2807,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2462,6 +2831,8 @@ GameObject:
   m_Component:
   - component: {fileID: 918662020}
   - component: {fileID: 918662021}
+  - component: {fileID: 918662023}
+  - component: {fileID: 918662022}
   m_Layer: 0
   m_Name: trigonikTokens_4 (2)
   m_TagString: Untagged
@@ -2522,8 +2893,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2536,6 +2907,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &918662022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918662019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 2042302253}
+--- !u!61 &918662023
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918662019}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5057143, y: 0.50714284}
+    newSize: {x: 0.5057143, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5057143, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &968561027
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,6 +2956,8 @@ GameObject:
   m_Component:
   - component: {fileID: 968561028}
   - component: {fileID: 968561029}
+  - component: {fileID: 968561031}
+  - component: {fileID: 968561030}
   m_Layer: 0
   m_Name: trigonikTokens_4 (4)
   m_TagString: Untagged
@@ -2606,8 +3018,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2620,6 +3032,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &968561030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968561027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 692254857}
+--- !u!61 &968561031
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968561027}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5057143, y: 0.50714284}
+    newSize: {x: 0.5057143, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5057143, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &971307503
 GameObject:
   m_ObjectHideFlags: 0
@@ -2690,11 +3141,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1664880472, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2714,6 +3165,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1073867476}
   - component: {fileID: 1073867477}
+  - component: {fileID: 1073867479}
+  - component: {fileID: 1073867478}
   m_Layer: 0
   m_Name: trigonikTokens_5 (1)
   m_TagString: Untagged
@@ -2774,8 +3227,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1664880472, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2788,6 +3241,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1073867478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073867475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 690562183}
+--- !u!61 &1073867479
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073867475}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50666666, y: 0.5052381}
+    newSize: {x: 0.50666666, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50666666, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &1104849207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2798,6 +3290,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1104849208}
   - component: {fileID: 1104849209}
+  - component: {fileID: 1104849211}
+  - component: {fileID: 1104849210}
   m_Layer: 0
   m_Name: trigonikTokens_9 (1)
   m_TagString: Untagged
@@ -2858,8 +3352,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1315088356, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2872,6 +3366,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1104849210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104849207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1745699434}
+--- !u!61 &1104849211
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104849207}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5052381, y: 0.5052381}
+    newSize: {x: 0.5052381, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5052381, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &1127504078
 GameObject:
   m_ObjectHideFlags: 0
@@ -2942,11 +3475,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2966,6 +3499,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1195536269}
   - component: {fileID: 1195536270}
+  - component: {fileID: 1195536272}
+  - component: {fileID: 1195536271}
   m_Layer: 0
   m_Name: trigonikTokens_2
   m_TagString: Untagged
@@ -3026,8 +3561,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1897517997, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3040,6 +3575,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1195536271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195536268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 92211065}
+--- !u!61 &1195536272
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195536268}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5057143, y: 0.50714284}
+    newSize: {x: 0.5057143, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5057143, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &1225993403
 GameObject:
   m_ObjectHideFlags: 0
@@ -3110,11 +3684,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3194,11 +3768,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 489457690, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3218,6 +3792,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1276313081}
   - component: {fileID: 1276313082}
+  - component: {fileID: 1276313084}
+  - component: {fileID: 1276313083}
   m_Layer: 0
   m_Name: trigonikTokens_7 (1)
   m_TagString: Untagged
@@ -3278,8 +3854,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 489457690, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3292,6 +3868,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1276313083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276313080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1229201366}
+--- !u!61 &1276313084
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276313080}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5057143, y: 0.5052381}
+    newSize: {x: 0.5057143, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5057143, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &1285886007
 GameObject:
   m_ObjectHideFlags: 0
@@ -3362,11 +3977,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1664880472, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3386,6 +4001,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1289227699}
   - component: {fileID: 1289227700}
+  - component: {fileID: 1289227702}
+  - component: {fileID: 1289227701}
   m_Layer: 0
   m_Name: trigonikTokens_0 (3)
   m_TagString: Untagged
@@ -3446,8 +4063,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -719888644, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3460,6 +4077,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1289227701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289227698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 30718751}
+--- !u!61 &1289227702
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289227698}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50666666, y: 0.50714284}
+    newSize: {x: 0.50666666, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50666666, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &1292005694
 GameObject:
   m_ObjectHideFlags: 0
@@ -3530,11 +4186,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -979815580, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3554,6 +4210,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1298368804}
   - component: {fileID: 1298368805}
+  - component: {fileID: 1298368807}
+  - component: {fileID: 1298368806}
   m_Layer: 0
   m_Name: trigonikTokens_5 (3)
   m_TagString: Untagged
@@ -3614,8 +4272,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1664880472, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3628,6 +4286,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1298368806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298368803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1285886007}
+--- !u!61 &1298368807
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298368803}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50666666, y: 0.5052381}
+    newSize: {x: 0.50666666, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50666666, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &1339934243
 GameObject:
   m_ObjectHideFlags: 0
@@ -3638,6 +4335,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1339934244}
   - component: {fileID: 1339934245}
+  - component: {fileID: 1339934247}
+  - component: {fileID: 1339934246}
   m_Layer: 0
   m_Name: trigonikTokens_4
   m_TagString: Untagged
@@ -3698,8 +4397,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3712,6 +4411,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1339934246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339934243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 916919717}
+--- !u!61 &1339934247
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339934243}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5057143, y: 0.50714284}
+    newSize: {x: 0.5057143, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5057143, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &1438548011
 GameObject:
   m_ObjectHideFlags: 0
@@ -3722,7 +4460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1438548012}
   m_Layer: 0
-  m_Name: Blue Pegs
+  m_Name: Blue Pegs Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3783,6 +4521,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1439318499}
   - component: {fileID: 1439318500}
+  - component: {fileID: 1439318502}
+  - component: {fileID: 1439318501}
   m_Layer: 0
   m_Name: trigonikTokens_1
   m_TagString: Untagged
@@ -3843,8 +4583,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1679770732, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3857,6 +4597,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1439318501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439318498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1693240624}
+--- !u!61 &1439318502
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439318498}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50714284, y: 0.50714284}
+    newSize: {x: 0.50714284, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50714284, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &1467007857
 GameObject:
   m_ObjectHideFlags: 0
@@ -3867,6 +4646,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1467007858}
   - component: {fileID: 1467007859}
+  - component: {fileID: 1467007861}
+  - component: {fileID: 1467007860}
   m_Layer: 0
   m_Name: trigonikTokens_2 (1)
   m_TagString: Untagged
@@ -3927,8 +4708,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1897517997, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3941,6 +4722,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1467007860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467007857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 220416899}
+--- !u!61 &1467007861
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467007857}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5057143, y: 0.50714284}
+    newSize: {x: 0.5057143, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5057143, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &1486635536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3951,6 +4771,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1486635537}
   - component: {fileID: 1486635538}
+  - component: {fileID: 1486635540}
+  - component: {fileID: 1486635539}
   m_Layer: 0
   m_Name: trigonikTokens_5
   m_TagString: Untagged
@@ -4011,8 +4833,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1664880472, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4025,6 +4847,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1486635539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486635536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 971307503}
+--- !u!61 &1486635540
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486635536}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50666666, y: 0.5052381}
+    newSize: {x: 0.50666666, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50666666, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &1673158743
 GameObject:
   m_ObjectHideFlags: 0
@@ -4035,6 +4896,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1673158744}
   - component: {fileID: 1673158745}
+  - component: {fileID: 1673158747}
+  - component: {fileID: 1673158746}
   m_Layer: 0
   m_Name: trigonikTokens_6
   m_TagString: Untagged
@@ -4095,8 +4958,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1037157343, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4109,6 +4972,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1673158746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673158743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 403132325}
+--- !u!61 &1673158747
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673158743}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50714284, y: 0.5052381}
+    newSize: {x: 0.50714284, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50714284, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &1693240624
 GameObject:
   m_ObjectHideFlags: 0
@@ -4179,11 +5081,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1679770732, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4263,11 +5165,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4287,6 +5189,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1718822541}
   - component: {fileID: 1718822542}
+  - component: {fileID: 1718822544}
+  - component: {fileID: 1718822543}
   m_Layer: 0
   m_Name: trigonikTokens_8 (1)
   m_TagString: Untagged
@@ -4347,8 +5251,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 960735431, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4361,6 +5265,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1718822543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718822540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 115634415}
+--- !u!61 &1718822544
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718822540}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50714284, y: 0.5052381}
+    newSize: {x: 0.50714284, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50714284, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &1735962385
 GameObject:
   m_ObjectHideFlags: 0
@@ -4371,6 +5314,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1735962386}
   - component: {fileID: 1735962387}
+  - component: {fileID: 1735962389}
+  - component: {fileID: 1735962388}
   m_Layer: 0
   m_Name: trigonikTokens_1 (1)
   m_TagString: Untagged
@@ -4431,8 +5376,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1679770732, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4445,6 +5390,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1735962388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735962385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 804996030}
+--- !u!61 &1735962389
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735962385}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50714284, y: 0.50714284}
+    newSize: {x: 0.50714284, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50714284, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &1745699434
 GameObject:
   m_ObjectHideFlags: 0
@@ -4515,11 +5499,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1315088356, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4539,6 +5523,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1757457671}
   - component: {fileID: 1757457672}
+  - component: {fileID: 1757457674}
+  - component: {fileID: 1757457673}
   m_Layer: 0
   m_Name: trigonikTokens_10
   m_TagString: Untagged
@@ -4599,8 +5585,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -979815580, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4613,6 +5599,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1757457673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757457670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1292005694}
+--- !u!61 &1757457674
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757457670}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50714284, y: 0.50714284}
+    newSize: {x: 0.50714284, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50714284, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &1769418925
 GameObject:
   m_ObjectHideFlags: 0
@@ -4683,11 +5708,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -719888644, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4767,11 +5792,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -719888644, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4791,6 +5816,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1837100219}
   - component: {fileID: 1837100220}
+  - component: {fileID: 1837100222}
+  - component: {fileID: 1837100221}
   m_Layer: 0
   m_Name: trigonikTokens_4 (1)
   m_TagString: Untagged
@@ -4851,8 +5878,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4865,6 +5892,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1837100221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837100218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1127504078}
+--- !u!61 &1837100222
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837100218}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5057143, y: 0.50714284}
+    newSize: {x: 0.5057143, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5057143, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &1841731405
 GameObject:
   m_ObjectHideFlags: 0
@@ -4875,6 +5941,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1841731406}
   - component: {fileID: 1841731407}
+  - component: {fileID: 1841731409}
+  - component: {fileID: 1841731408}
   m_Layer: 0
   m_Name: trigonikTokens_3 (1)
   m_TagString: Untagged
@@ -4935,8 +6003,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1326448634, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4949,6 +6017,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1841731408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841731405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 328654921}
+--- !u!61 &1841731409
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841731405}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50714284, y: 0.50714284}
+    newSize: {x: 0.50714284, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50714284, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &1843887518
 GameObject:
   m_ObjectHideFlags: 0
@@ -4959,6 +6066,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1843887519}
   - component: {fileID: 1843887520}
+  - component: {fileID: 1843887522}
+  - component: {fileID: 1843887521}
   m_Layer: 0
   m_Name: trigonikTokens_8
   m_TagString: Untagged
@@ -5019,8 +6128,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 960735431, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5033,6 +6142,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1843887521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843887518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 283641187}
+--- !u!61 &1843887522
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843887518}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50714284, y: 0.5052381}
+    newSize: {x: 0.50714284, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50714284, y: 0.5052381}
+  m_EdgeRadius: 0
 --- !u!1 &1946642854
 GameObject:
   m_ObjectHideFlags: 0
@@ -5043,6 +6191,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1946642855}
   - component: {fileID: 1946642856}
+  - component: {fileID: 1946642858}
+  - component: {fileID: 1946642857}
   m_Layer: 0
   m_Name: trigonikTokens_0
   m_TagString: Untagged
@@ -5103,8 +6253,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -719888644, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5117,6 +6267,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1946642857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946642854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 1785259573}
+--- !u!61 &1946642858
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946642854}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50666666, y: 0.50714284}
+    newSize: {x: 0.50666666, y: 0.50714284}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50666666, y: 0.50714284}
+  m_EdgeRadius: 0
 --- !u!1 &1973901576
 GameObject:
   m_ObjectHideFlags: 0
@@ -5187,11 +6376,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -719888644, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5271,11 +6460,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1780633116, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5355,11 +6544,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 819339343
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1664880472, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5379,6 +6568,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2105773270}
   - component: {fileID: 2105773271}
+  - component: {fileID: 2105773273}
+  - component: {fileID: 2105773272}
   m_Layer: 0
   m_Name: trigonikTokens_5 (2)
   m_TagString: Untagged
@@ -5439,8 +6630,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1244943021
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1664880472, guid: 64ef8336fe6ace24288d4c61a066384b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5453,3 +6644,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2105773272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105773269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f45f6fd39d6ae4db8f70e25b02970a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctForm: {fileID: 2071489706}
+--- !u!61 &2105773273
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105773269}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50666666, y: 0.5052381}
+    newSize: {x: 0.50666666, y: 0.5052381}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50666666, y: 0.5052381}
+  m_EdgeRadius: 0
